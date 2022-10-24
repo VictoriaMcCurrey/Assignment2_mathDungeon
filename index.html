@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Dungeon</title>
+
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="/css/materialize.min.css">
+    
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+    <!--Import app.css-->
+    <link rel="stylesheet" href="/css/app.css">
+       
+    <!--Import materialize.js-->
+    <script type="text/javascript" src="/js/materialize.min.js"></script>
+
+    <!--Link manifest.json-->
+    <link rel="manifest" href="/manifest.json">
+
+</head>
+<body class="deep-purple lighten-4">
+    
+    <!--Desktop Navigation-->
+    <nav class="z-depth-0 deep-purple hide-on-med-and-down">
+        <div class="nav-wrapper container">
+            <a class="brand-logo" href="/">Math<span> Dungeon</span></a>
+            <ul class="right">
+                <li><a href="/" class="waves-effects">Home</a></li>
+                <li><a href="/pages/about.html" class="waves-effects">About</a></li>
+                <li><a href="/pages/help.html" class="waves-effects">Help</a></li>
+                <li><a href="/pages/contact.html" class="waves-effects">Contact</a></li>
+            <span>
+                <i class="right material-icons">create</i>
+            </span>  
+        </ul>
+        </div>
+    </nav>
+
+    <!--Mobile Navigation-->
+    <nav class="z-depth-0 deep-purple hide-on-large-only">
+        <div class="nav-wrapper container">
+            <a href="/">Math<span> Dungeon</span></a>
+            <span>
+                <i class="material-icons sidenav-trigger" data-target="side-menu">menu</i>
+                <i class="right material-icons">mode_edit</i>
+            </span>  
+        </div>
+    </nav>
+
+    <!--Navigation side-menu-->
+    <ul id="side-menu" class="sidenav side-menu">
+        <li><a class="subheader deep-purple-text"><b>Math Dungeon</b></a></li>
+        <li><a href="/" class="waves-effects">Home</a></li>
+        <li><a href="/pages/about.html" class="waves-effects">About</a></li>
+        <li><a href="/pages/help.html" class="waves-effects">Help</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a href="/pages/contact.html" class="waves-effects">Contact</a></li>
+    </ul>
+
+    <!--Large Screen Buttons: Math Choices-->
+    <div class="row container hide-on-med-and-down">
+        <div class="col s2">
+            <ul>
+                <li>
+                    <br><br><br><br> <!--NEEDS WORK: not sure how to add top padding with materialize-->
+                </li>
+                <li>
+                    <a class="btn-floating btn-large waves-effect waves-light deep-purple">
+                    <i><b>&#215</b></i></a>
+                </li>
+                <li>
+                    <br><br><br> <!--NEEDS WORK: not sure how to add bottom padding with materialize-->
+                </li>
+                <li>
+                    <a class="btn-floating btn-large waves-effect waves-light deep-purple">
+                    <i><b>÷</b></i></a>
+                </li>
+                <li>
+                    <br><br><br> <!--NEEDS WORK: not sure how to add bottom padding with materialize-->
+                </li>
+                <li>
+                    <a class="btn-floating btn-large waves-effect waves-light deep-purple">
+                    <i><b>1/2</b></i></a>
+                </li>
+                <li>
+                    <br><br><br> <!--NEEDS WORK: not sure how to add bottom padding with materialize-->
+                </li>
+                <li>
+                    <a class="btn-floating btn-large waves-effect waves-light deep-purple">
+                    <i><b>LCM</b></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="row">
+        <!--Large Screen Math dungeon-->  
+            <div class="col s10"> 
+                <ul>
+                    <br><br><br> <!--NEEDS WORK: not sure how to add bottom padding with materialize-->
+                    <li>
+                        <img src="/img/math dungeon.png" class="center-align responsive-img matterialboxed card-image" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--Med and Small Screen Buttons: Math Choices-->
+    <br><br>
+    <div class="row center-align hide-on-large-only">
+        <div class="col s3">
+            <ul>
+                <li>
+                    <a class="btn-floating btn-large waves-effect waves-light deep-purple">
+                        <i><b>&#215</b></i></a> 
+                </li>
+            </ul>
+        </div>
+        <div class="col s3">
+            <ul>
+                <li>
+                    <a class="btn-floating btn-large waves-effect waves-light deep-purple">
+                        <i><b>÷</b></i></a> 
+                </li>
+            </ul>
+        </div>
+        <div class="col s3">
+            <ul>
+                <li>
+                    <a class="btn-floating btn-large waves-effect waves-light deep-purple">
+                        <i><b>1/2</b></i></a> 
+                </li>
+            </ul>
+        </div>
+        <div class="col s3">
+            <ul>
+                <li>
+                    <a class="btn-floating btn-large waves-effect waves-light deep-purple">
+                        <i><b>LCM</b></i></a> 
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Screen Math dungeon--> 
+    <div class="container hide-on-large-only"><br><br> 
+        <div>  
+            <img src="/img/math dungeon.png" class="center-align responsive-img matterialboxed card-image" alt="" >  
+        </div>
+    </div>
+
+    <!--Footer-->
+	<footer class="footer">
+		Copyright &copy; 2022 Math Dungeon
+		<br><a href="mailto:vdmccurrey@mail.fhsu.edu">VictoriaMcCurrey@mail.fhsu.edu</a>
+	</footer>
+    
+    <!--Link ui.js-->
+    <script src="/js/ui.js"></script>
+   
+    <!--Link app.js-->
+    <script src="/js/app.js"></script>
+
+</body>
+</html>

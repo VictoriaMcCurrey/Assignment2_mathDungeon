@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Dungeon</title>
+
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="/css/materialize.min.css">
+    
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+    <!--Import app.css-->
+    <link rel="stylesheet" href="/css/app.css">
+       
+    <!--Import materialize.js-->
+    <script type="text/javascript" src="/js/materialize.min.js"></script>
+
+    <!--Link manifest.json-->
+    <link rel="manifest" href="/manifest.json">
+
+</head>
+<body class="deep-purple lighten-4">
+
+    <!--Desktop Navigation-->
+    <nav class="z-depth-0 deep-purple hide-on-med-and-down">
+      <div class="nav-wrapper container">
+          <a class="brand-logo" href="/">Math<span> Dungeon</span></a>
+            <ul class="right">
+                <li><a href="/" class="waves-effects">Home</a></li>
+                <li><a href="/pages/about.html" class="waves-effects">About</a></li>
+                <li><a href="/pages/help.html" class="waves-effects">Help</a></li>
+                <li><a href="/pages/contact.html" class="waves-effects">Contact</a></li>
+              <span>
+                  <i class="right material-icons">create</i>
+              </span>  
+          </ul>
+        </div>
+    </nav>
+    
+    <!--Mobile Navigation-->
+    <nav class="z-depth-0 deep-purple hide-on-large-only">
+        <div class="nav-wrapper container">
+            <a href="/">Math<span> Dungeon</span></a>
+            <span>
+                <i class="material-icons sidenav-trigger" data-target="side-menu">menu</i>
+            </span>  
+        </div>
+    </nav>
+
+    <!--Navigation side-menu-->
+    <ul id="side-menu" class="sidenav side-menu">
+        <li><a class="subheader deep-purple-text"><b>Math Dungeon</b></a></li>
+        <li><a href="/" class="waves-effects">Home</a></li>
+        <li><a href="/pages/about.html" class="waves-effects">About</a></li>
+        <li><a href="/pages/help.html" class="waves-effects">Help</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a href="/pages/contact.html" class="waves-effects">Contact</a></li>
+    </ul>
+
+    <!--Contact Form-->
+    <div class="row container">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="first_name" type="text" class="validate">
+              <label class="deep-purple-text" for="first_name">First Name</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="last_name" type="text" class="validate">
+              <label class="deep-purple-text" for="last_name">Last Name</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label class="deep-purple-text" for="email">Email</label>
+            </div>
+          </div>
+          <div class="deep-purple-text row">
+            <div class="input-field col s12">
+              <textarea id="textarea1" class="materialize-textarea"></textarea>
+              <label class="deep-purple-text" for="textarea1">Comment</label>
+            </div>
+          </div>
+        </form>
+
+        <!--Submit Button-->
+        <button class="right btn waves-effect waves-light deep-purple" type="submit">Submit
+            <i class="material-icons right">send</i>
+        </button>
+    </div>
+
+    <!--Footer-->
+    <footer class="footer">
+      Copyright &copy; 2022 Math Dungeon
+      <br><a href="mailto:vdmccurrey@mail.fhsu.edu">VictoriaMcCurrey@mail.fhsu.edu</a>
+    </footer>
+    
+    <!--Link ui.js-->
+    <script src="/js/ui.js"></script>
+
+</body>
+</html>

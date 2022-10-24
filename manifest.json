@@ -1,0 +1,13 @@
+{
+    "name": "Math Dungeon",
+    "short_name": "MD",
+    "description": "Math practice game",
+    "start_url": "/index.html",
+    "scope": ".",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "background_color": "#d1c4e9",
+    "theme_color": "#673ab7",
+    "dir": "ltr",
+    "lang": "en-US"
+}
