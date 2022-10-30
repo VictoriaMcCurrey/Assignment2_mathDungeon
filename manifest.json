@@ -9,5 +9,19 @@
     "background_color": "#d1c4e9",
     "theme_color": "#673ab7",
     "dir": "ltr",
-    "lang": "en-US"
+    "lang": "en-US",
+    "icons": [
+        {
+            "src": "/img/math dungeon.png",
+            "type": "image/png",
+            "sizes": "any",
+            "purpose": "any"
+        },
+        {
+            "src": "/img/math fact.png",
+            "type": "image/png",
+            "sizes": "any",
+            "purpose": "any"
+        }
+    ]
 }
